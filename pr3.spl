@@ -1,0 +1,27 @@
+Bool bool = True
+Matrix x = getLists
+List one = get (0) x
+List two = get (1) x
+List newList = []
+Int e = 0
+push e newList
+while (bool) {
+    if (empty one){
+      Bool bool = False
+    } else {
+      if (empty two) {
+         Bool bool = False
+      } else {
+         Int c = pop (two)
+         if(empty two) {
+            Bool bool = False
+         } else {
+         Int a = pop (two)
+         push a newList
+         Int b = pop (one)
+         push b newList
+         }
+      }
+    }
+}
+return(newList)
