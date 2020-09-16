@@ -1,0 +1,16 @@
+Bool bool = True
+Matrix x = getLists
+List one = get (0) x
+List newList = []
+Int counter = 0
+while (bool) {
+   if (empty one) {
+       Bool bool = False
+   } else {
+        Int a = pop (one)
+        push a newList
+		Int counter = counter + 1
+        push counter newList
+   }
+}
+return(newList)

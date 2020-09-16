@@ -1,0 +1,63 @@
+Bool bool = True
+Matrix x = getLists
+List one = get (0) x
+List output = []
+List revOut = []
+List fibList = []
+List revFib = []
+List subOne = []
+List revOne = []
+Int n = 0
+Int nMinus1 = 1
+Int nMinus2 = 0
+push nMinus1 fibList
+Int a1 = pop(one)
+push a1 output
+push a1 subOne
+while(bool){
+   if(empty one){
+      Bool bool = False
+   } else {
+       Int acc = 0
+       Int n = nMinus1 + nMinus2
+       Int oldMinus1 = nMinus1 + 0
+       Int nMinus1 = n + 0
+       Int nMinus2 = oldMinus1 + 0
+       push n fibList
+       Int current = pop(one)
+       push current subOne
+       Bool subBool = True
+       while(subBool){
+          if(empty subOne){
+             Bool subBool = False
+          } else {
+             Int x = pop(subOne)
+             push x revOne
+          }
+        }
+        Bool subBool = True
+       while(subBool){
+           if(empty revOne){
+              Bool subBool = False
+           } else {
+              Int y = pop(fibList)
+              Int z = pop(revOne)
+              Int i = y * z
+              Int acc = acc + i
+              push y revFib
+              push z subOne
+           }
+         }
+         push acc output
+       Bool subBool = True
+       while(subBool){
+          if(empty revFib){
+             Bool subBool = False
+          } else {
+             Int x = pop(revFib)
+             push x fibList
+          }
+        }
+   }
+}
+return(output)

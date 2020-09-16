@@ -1,0 +1,44 @@
+Bool bool = True
+Matrix x = getLists
+List one = get (0) x
+List newList = []
+while (bool) {
+  if (empty one){
+    Bool bool = False
+  } else{
+    Int a = pop (one)
+  }
+  if (empty one){
+    Bool bool = False
+  } else{
+    Int a = pop (one)
+  }
+  if (empty one){
+    Bool bool = False
+  }else{
+    Int a = pop (one)
+    push a newList
+  }
+  if (empty one){
+    Bool bool = False
+  }else{
+    Int b = pop (one)
+  }
+  if (empty one){
+    Bool bool = False
+  }else{
+    Int b = pop (one)
+  }
+  if (empty one){
+    Bool bool = False
+  }else{
+    Int b = pop (one)
+  }
+  if (empty one){
+    Bool bool = False
+  }else{
+    Int b = pop (one)
+	push b newList
+  }
+}
+return(newList)
