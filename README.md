@@ -9,5 +9,5 @@ Task: To design and implement a domain specific programming language that perfor
 
 Requirements:
 1. Invent an appropriate syntax,
-2. Write an interpreter for your language using Haskell, and
-3. Document your language in a written report.
+2. Write an interpreter for the invented language using Haskell
+3. Document the language in a written report
